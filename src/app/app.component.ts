@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +10,15 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'pdf-generator';
+  constructor(private router: Router) {}
+
+  goToAdmitCard(){
+    this.router.navigate(['/admit-card']); 
+  }
+
+  goToMarksheet(){
+    this.router.navigate(['/marksheet']); 
+
+  }
+  
 }
