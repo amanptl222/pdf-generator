@@ -1,0 +1,53 @@
+.schedule-container{
+    border: 0.85px solid #00000026;
+    padding: 16px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.text-section {
+    font-family: Poppins;
+    font-size: 15.26px;
+    font-weight: 500;
+    line-height: 15.26px;
+    text-align: left;
+  }
+
+.table-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Six equal-width columns */
+    row-gap: 15px;    
+    column-gap: 15px; 
+    background-color: transparent;  
+}
+  
+  .table-row {
+    display: contents;
+  }
+  
+  .header {
+    font-family: Poppins;
+    font-size: 13.56px;
+    font-weight: 500;
+    line-height: 20.34px;
+    letter-spacing: 0.8476433753967285px;
+    color: #1A1A1A;
+    background-color: transparent;
+  }
+
+  .table-cell.header {
+    background-color: transparent !important;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 11.87px;
+    font-weight: 400;
+    line-height: 17.8px;
+    color: #1A1A1A;
+    border-radius: 3.39px;
+    background: #F2F6FC;
+}
+  

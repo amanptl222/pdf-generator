@@ -1,0 +1,13 @@
+.marksheet-container{
+  display: grid;
+  place-items: center; 
+}
+
+.marksheet{
+  padding: 27px 30px 0px 30px;
+  max-width: 682px;
+}
+
+.footer-container>img{
+  height: 85px;
+}

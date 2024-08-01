@@ -1,0 +1,9 @@
+<div class="detail-item">
+    <img [src]="logo" alt="Logo" class="detail-logo" [ngClass]="{'hidden': !logo}">
+    <div class="detail-logo fallback-div" [ngClass]="{'hidden': logo}">#</div>
+    <div class="text-section">
+      <div class="heading">{{ heading }}</div>
+      <div class="subheading">{{ subheading }}</div>
+    </div>
+  </div>
+  

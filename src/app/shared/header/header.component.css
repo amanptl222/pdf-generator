@@ -1,0 +1,50 @@
+/* src/app/shared/header/header.component.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  background-color: #fff; /* Or any background color you prefer */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  border: 1.15px solid #0000001A;
+  border-radius: 11.47px;
+  width: 64.14px;
+  height: 64.25px;
+  margin-right: 10px; /* Adjust spacing if necessary */
+}
+
+.text-section {
+  flex: 1;
+}
+
+.school-name {
+  font-family: Poppins, sans-serif;
+  font-size: 18.36px;
+  font-weight: 600;
+  line-height: 27.53px;
+  text-align: left;
+}
+
+.term {
+  font-family: Poppins, sans-serif;
+  font-size: 18.36px;
+  font-weight: 400;
+  line-height: 27.53px;
+  text-align: left;
+}
+
+.secondary-image {
+  width: 94.17px;
+  height: 91.62px;
+  border: 1.15px solid #BDBBBB;
+  border-radius: 11.47px;
+  /* Adjust margin or positioning if necessary */
+}

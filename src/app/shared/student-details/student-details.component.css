@@ -1,0 +1,40 @@
+.student-details-container {
+    border: 0.85px solid #00000026;
+    border-radius: 3.39px;
+    padding: 15px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  .text-content{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .secondary-heading{
+    margin-left: auto;
+    font-family: Poppins;
+    font-size: 15.26px;
+    font-weight: 500;
+    line-height: 15.26px;
+    color: #1A1A1A;
+  }
+  
+  .primary-heading {
+    font-family: Poppins;
+    font-size: 15.26px;
+    font-weight: 500;
+    line-height: 15.26px;
+    text-align: left;
+    color: #1A1A1A;
+  }
+
+  .details-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  

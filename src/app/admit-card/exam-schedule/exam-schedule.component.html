@@ -1,0 +1,16 @@
+<div class="schedule-container">
+    <div class="text-section">Exam Schedule</div>
+    <div class="table-container">
+        <div class="table-row header">
+          <div class="table-header-cell" *ngFor="let column of columns">{{ column }}</div>
+        </div>
+        <div class="table-row" *ngFor="let row of rows">
+          <div class="table-cell">{{ row.subject }}</div>
+          <div class="table-cell">{{ row.marks }}</div>
+          <div class="table-cell">{{ row.teacher }}</div>
+          <div class="table-cell">{{ row.date }}</div>
+          <div class="table-cell">{{ row.startTime }}</div>
+          <div class="table-cell">{{ row.endTime }}</div>
+        </div>
+    </div>
+</div>
